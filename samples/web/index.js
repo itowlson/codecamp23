@@ -11,11 +11,11 @@ runRaw();
 
 // Invoking using the wasm-pack helpers
 
-// import init from "./wasm-test/pkg/wasm_test.js";
+// import init, { add } from "./wasm-test/pkg/wasm_test.js";
 
 // const runPacked = async () => {
-//   const wtest = await init();
-//   const addResult = wtest.add(123, 456);
+//   await init();
+//   const addResult = add(123, 456);
 //   document.body.textContent = `Called WebAssembly add function: result = ${addResult}`;
 // };
 
